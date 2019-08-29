@@ -63,31 +63,31 @@ a (standard):	#869cb1 (Gray blue)
 a (hover):	#FFF (White)
 a (active):	#FFF (White)
 ------------------------------------------------------------------*/
-.main-content-color-txt, .kayo-btn-1, .kayo-btn-1:hover, .kayo-btn-1:focus, .kayo-btn-1:active, .main-page-content > section, .control-bar, .slide-menu-container .slide-menu .kayo-user-info .social-media a, .slide-menu-container .slide-menu .kayo-user-info .kayo-links-toggle span, .slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links a:hover, .slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links li.active a, .kayo-facts-about-me .kayo-info-list .single-info .info-icon, .kayo-facts-about-me .kayo-info-list .single-info .info-icon i, .testimonials .testi-user-info h3, .testimonials .testi-desc-box i, .port-box .portfolio-items .portfolio-item .port-data .port-data-back-card .port-show-info, .kayo-skills .soft-skills .progress-container .progress-val, .normal-post .entry-header .post-category a, .normal-post .entry-header .post-share li a, .normal-post .entry-header .post-share li span, .normal-post .entry-content .entry-post-info h4 a, .normal-post .entry-content .entry-expert .post-readMore a:hover, .normal-post .entry-footer .entry-tags a:hover, .contact-form .kayo-form .form-control {
+.main-content-color-txt, .gody-btn-1, .gody-btn-1:hover, .gody-btn-1:focus, .gody-btn-1:active, .main-page-content > section, .control-bar, .slide-menu-container .slide-menu .gody-user-info .social-media a, .slide-menu-container .slide-menu .gody-user-info .gody-links-toggle span, .slide-menu-container .slide-menu.gody-menu-style-2 .gody-links a:hover, .slide-menu-container .slide-menu.gody-menu-style-2 .gody-links li.active a, .gody-facts-about-me .gody-info-list .single-info .info-icon, .gody-facts-about-me .gody-info-list .single-info .info-icon i, .testimonials .testi-user-info h3, .testimonials .testi-desc-box i, .port-box .portfolio-items .portfolio-item .port-data .port-data-back-card .port-show-info, .gody-skills .soft-skills .progress-container .progress-val, .normal-post .entry-header .post-category a, .normal-post .entry-header .post-share li a, .normal-post .entry-header .post-share li span, .normal-post .entry-content .entry-post-info h4 a, .normal-post .entry-content .entry-expert .post-readMore a:hover, .normal-post .entry-footer .entry-tags a:hover, .contact-form .gody-form .form-control {
   color: #FFFFFF;
 }
 
-.main-txt, .blue-color, .control-bar .copyright a, .control-bar .copyright i, .testimonials .testi-desc-box i:last-child, .port-box .kayo-taps li:hover, .port-box .kayo-taps li.active, .education-workHistory .timeline-title i, .education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-header h3, .normal-post .entry-content .entry-post-info h4 a:hover, .normal-post .entry-content .entry-expert .post-readMore a.read-more-link, .appsLand-navbar.active-navbar .navbar-nav > li:hover, .appsLand-navbar.active-navbar .navbar-nav > li.active, .apps-footer .footer-bottom p a {
+.main-txt, .blue-color, .control-bar .copyright a, .control-bar .copyright i, .testimonials .testi-desc-box i:last-child, .port-box .gody-taps li:hover, .port-box .gody-taps li.active, .education-workHistory .timeline-title i, .education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-header h3, .normal-post .entry-content .entry-post-info h4 a:hover, .normal-post .entry-content .entry-expert .post-readMore a.read-more-link, .appsLand-navbar.active-navbar .navbar-nav > li:hover, .appsLand-navbar.active-navbar .navbar-nav > li.active, .apps-footer .footer-bottom p a {
   color: #1894ff;
 }
 
-.sup_main_txt, .slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links a, .port-box .portfolio-items .portfolio-item .port-data .port-data-back-card .project-category h5, .education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-header p, .normal-post .entry-content .entry-post-info p, .normal-post .entry-content .entry-expert p, .normal-post .entry-content .entry-expert .post-readMore a, .normal-post .entry-footer .entry-tags a {
+.sup_main_txt, .slide-menu-container .slide-menu.gody-menu-style-2 .gody-links a, .port-box .portfolio-items .portfolio-item .port-data .port-data-back-card .project-category h5, .education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-header p, .normal-post .entry-content .entry-post-info p, .normal-post .entry-content .entry-expert p, .normal-post .entry-content .entry-expert .post-readMore a, .normal-post .entry-footer .entry-tags a {
   color: #869cb1;
 }
 
-.main-bg, body, .kayo-btn-1, .kayo-icon-box-container .kayo-icon-box, .overlay-container, .control-bar, .slide-menu-container .slide-menu .kayo-user-info .social-media, .slide-menu-container .slide-menu .kayo-user-info .kayo-img-box, .slide-menu-container .slide-menu .kayo-user-info.kayo-menu-style-1:after, .slide-menu-container .slide-menu .kayo-user-info.kayo-menu-style-1:before, .slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links, .testimonials .testi-box, .testimonials .testi-desc-box i:last-child, .port-box .kayo-taps, .education-workHistory .timeline-content:before, .education-workHistory .timeline-content .timeline-box .timeline-date, .education-workHistory .timeline-content .timeline-box .timeline-info, .normal-post .entry-header .post-category a, .normal-post .entry-header .post-share li a, .normal-post .entry-header .post-share li span, .loading, .appsLand-navbar.active-navbar, .apps-footer .footer-top .footer-social-links a, .apps-footer .footer-bottom {
+.main-bg, body, .gody-btn-1, .gody-icon-box-container .gody-icon-box, .overlay-container, .control-bar, .slide-menu-container .slide-menu .gody-user-info .social-media, .slide-menu-container .slide-menu .gody-user-info .gody-img-box, .slide-menu-container .slide-menu .gody-user-info.gody-menu-style-1:after, .slide-menu-container .slide-menu .gody-user-info.gody-menu-style-1:before, .slide-menu-container .slide-menu.gody-menu-style-2 .gody-links, .testimonials .testi-box, .testimonials .testi-desc-box i:last-child, .port-box .gody-taps, .education-workHistory .timeline-content:before, .education-workHistory .timeline-content .timeline-box .timeline-date, .education-workHistory .timeline-content .timeline-box .timeline-info, .normal-post .entry-header .post-category a, .normal-post .entry-header .post-share li a, .normal-post .entry-header .post-share li span, .loading, .appsLand-navbar.active-navbar, .apps-footer .footer-top .footer-social-links a, .apps-footer .footer-bottom {
   background: #2c3e50;
 }
 
-.main-bg-rgba, .kayo-btn-1.btn-rgba, .kayo-icon-list-box:hover .kayo-list-info, .contact-form .kayo-form .form-control {
+.main-bg-rgba, .gody-btn-1.btn-rgba, .gody-icon-list-box:hover .gody-list-info, .contact-form .gody-form .form-control {
   background: rgba(44, 62, 80, 0.8);
 }
 
-.main-themeColor-bg, .sakura-btn:hover, .sakura-btn:focus, .sakura-btn:active, .sakura-btn.btn-inverse, .scrollToTop:hover, .kayo-btn-1:before, .kayo-icon-box-container .kayo-icon-box:hover, .kayo-icon-list-box:hover .kayo-icon-box-container .kayo-icon-box, .slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links li.active a i, .testimonials .testi-desc-box:before, .testimonials .testi-desc-box i, .port-box .portfolio-items .portfolio-item .port-data .port-data-back-card .port-show-info:hover, .kayo-skills .technical-skills .progress-bar-container .progress.active .progress-bar, .kayo-skills .technical-skills .progress-bar-container .progress .progress-bar.active, .kayo-skills .technical-skills .progress-bar-container.primary-style .timer, .normal-post .entry-header .post-category a:hover, .normal-post .entry-header .post-share li a:hover, .normal-post .entry-header .post-share li span:hover, .normal-post .entry-header .post-share li span, .normal-post .entry-footer .entry-tags a:hover, .appsLand-navbar.active-navbar .menu-toggle .chart {
+.main-themeColor-bg, .sakura-btn:hover, .sakura-btn:focus, .sakura-btn:active, .sakura-btn.btn-inverse, .scrollToTop:hover, .gody-btn-1:before, .gody-icon-box-container .gody-icon-box:hover, .gody-icon-list-box:hover .gody-icon-box-container .gody-icon-box, .slide-menu-container .slide-menu.gody-menu-style-2 .gody-links li.active a i, .testimonials .testi-desc-box:before, .testimonials .testi-desc-box i, .port-box .portfolio-items .portfolio-item .port-data .port-data-back-card .port-show-info:hover, .gody-skills .technical-skills .progress-bar-container .progress.active .progress-bar, .gody-skills .technical-skills .progress-bar-container .progress .progress-bar.active, .gody-skills .technical-skills .progress-bar-container.primary-style .timer, .normal-post .entry-header .post-category a:hover, .normal-post .entry-header .post-share li a:hover, .normal-post .entry-header .post-share li span:hover, .normal-post .entry-header .post-share li span, .normal-post .entry-footer .entry-tags a:hover, .appsLand-navbar.active-navbar .menu-toggle .chart {
   background: #1894ff;
 }
 
-.main-border-color, .testimonials .testi-desc-box i:last-child, .port-box .kayo-taps li.active, .normal-post .entry-footer .entry-tags a:hover {
+.main-border-color, .testimonials .testi-desc-box i:last-child, .port-box .gody-taps li.active, .normal-post .entry-footer .entry-tags a:hover {
   border-color: #1894ff;
 }
 
@@ -95,18 +95,18 @@ a (active):	#FFF (White)
   background: rgba(24, 148, 255, 0.5);
 }
 
-.content-txt-1, .kayo-icon-list-box .kayo-list-info p, .home .intro-section .kayo-hello, .home .intro-section .kayo-work-description, .my-information .kayo-info-detail p, .testimonials .testi-user-info h5, .testimonials .testi-desc-box p, .port-box .kayo-taps li, .education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-details p {
+.content-txt-1, .gody-icon-list-box .gody-list-info p, .home .intro-section .gody-hello, .home .intro-section .gody-work-description, .my-information .gody-info-detail p, .testimonials .testi-user-info h5, .testimonials .testi-desc-box p, .port-box .gody-taps li, .education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-details p {
   color: #BBB;
 }
 
-.main-shadow-1, .sakura-btn, .overlay-container, .control-bar, .slide-menu-container .slide-menu, .testimonials .testimonials-arrows, .testimonials .slick-dots i, .testimonials .testi-box, .testimonials .img-box img, .port-box .portfolio-items .portfolio-item, .port-box .portfolio-items .portfolio-item .port-data, .take-my-resume .kayo-btn-1, .normal-post .entry-header .post-share li a, .normal-post .entry-header .post-share li span, .normal-post:hover {
+.main-shadow-1, .sakura-btn, .overlay-container, .control-bar, .slide-menu-container .slide-menu, .testimonials .testimonials-arrows, .testimonials .slick-dots i, .testimonials .testi-box, .testimonials .img-box img, .port-box .portfolio-items .portfolio-item, .port-box .portfolio-items .portfolio-item .port-data, .take-my-resume .gody-btn-1, .normal-post .entry-header .post-share li a, .normal-post .entry-header .post-share li span, .normal-post:hover {
   -webkit-box-shadow: 0 0 25px 1px #1b2838;
   -o-box-shadow: 0 0 25px 1px #1b2838;
   -moz-box-shadow: 0 0 25px 1px #1b2838;
   box-shadow: 0 0 25px 1px #1b2838;
 }
 
-.main-shadow-2, .slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links li.active a i, .port-box .kayo-taps, .port-box .portfolio-items .portfolio-item .port-data .port-data-back-card .port-show-info:hover, .education-workHistory .timeline-content:before, .education-workHistory .timeline-content .timeline-box .timeline-date, .education-workHistory .timeline-content .timeline-box .timeline-info, .sakura-demo2 .my-clients-logo .sakura-demo2-clients-slider .client-logo a:hover {
+.main-shadow-2, .slide-menu-container .slide-menu.gody-menu-style-2 .gody-links li.active a i, .port-box .gody-taps, .port-box .portfolio-items .portfolio-item .port-data .port-data-back-card .port-show-info:hover, .education-workHistory .timeline-content:before, .education-workHistory .timeline-content .timeline-box .timeline-date, .education-workHistory .timeline-content .timeline-box .timeline-info, .sakura-demo2 .my-clients-logo .sakura-demo2-clients-slider .client-logo a:hover {
   -webkit-box-shadow: 0 0 15px 0px #1b2838;
   -o-box-shadow: 0 0 15px 0px #1b2838;
   -moz-box-shadow: 0 0 15px 0px #1b2838;
@@ -204,18 +204,18 @@ a (active):	#FFF (White)
   transform: rotate(0deg);
 }
 
-.kayoAlert {
+.godyAlert {
   font-size: 13px;
   margin: 5px 0 0;
   font-weight: bold;
   text-transform: capitalize;
 }
 
-.kayoError {
+.godyError {
   color: #ff9191;
 }
 
-.kayoSuccess {
+.godySuccess {
   margin: 0 0 10px;
   background: rgba(24, 148, 255, 0.5);
   padding: 12px 24px;
@@ -378,7 +378,7 @@ body {
   font-family: 'Montserrat', Arial, sans-serif;
 }
 
-.kayo-btn-1 {
+.gody-btn-1 {
   display: inline-block;
   padding: 10px 15px;
   font-size: 14px;
@@ -402,12 +402,12 @@ body {
   outline: none;
   box-shadow: none;
 }
-.kayo-btn-1:hover, .kayo-btn-1:focus, .kayo-btn-1:active {
+.gody-btn-1:hover, .gody-btn-1:focus, .gody-btn-1:active {
   text-decoration: none;
   outline: none !important;
   box-shadow: none;
 }
-.kayo-btn-1:before {
+.gody-btn-1:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -431,22 +431,22 @@ body {
   -ms-transition: all 0.25s ease-in-out 0s;
   transition: all 0.25s ease-in-out 0s;
 }
-.kayo-btn-1:hover:before, .kayo-btn-1:focus:before, .kayo-btn-1:active:before {
+.gody-btn-1:hover:before, .gody-btn-1:focus:before, .gody-btn-1:active:before {
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
   -o-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
-.kayo-btn-1 span, .kayo-btn-1 i {
+.gody-btn-1 span, .gody-btn-1 i {
   margin-right: 5px;
 }
 
-.kayo-icon-box-container {
+.gody-icon-box-container {
   padding: 20px;
   position: relative;
 }
-.kayo-icon-box-container .kayo-icon-box {
+.gody-icon-box-container .gody-icon-box {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -462,7 +462,7 @@ body {
   width: 80px;
   height: 80px;
 }
-.kayo-icon-box-container .kayo-icon-box .kayo-icon {
+.gody-icon-box-container .gody-icon-box .gody-icon {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
@@ -471,7 +471,7 @@ body {
   font-size: 50px;
   line-height: 80px;
 }
-.kayo-icon-box-container .kayo-icon-box:after {
+.gody-icon-box-container .gody-icon-box:after {
   content: "";
   position: absolute;
   bottom: -7px;
@@ -484,7 +484,7 @@ body {
   -ms-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
-.kayo-icon-box-container .kayo-icon-box:before {
+.gody-icon-box-container .gody-icon-box:before {
   content: "";
   position: absolute;
   top: -7px;
@@ -497,11 +497,11 @@ body {
   -ms-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
-.kayo-icon-box-container .kayo-icon-box:hover:after, .kayo-icon-box-container .kayo-icon-box:hover:before, .kayo-icon-list-box:hover .kayo-icon-box-container .kayo-icon-box:after, .kayo-icon-list-box:hover .kayo-icon-box-container .kayo-icon-box:before {
+.gody-icon-box-container .gody-icon-box:hover:after, .gody-icon-box-container .gody-icon-box:hover:before, .gody-icon-list-box:hover .gody-icon-box-container .gody-icon-box:after, .gody-icon-list-box:hover .gody-icon-box-container .gody-icon-box:before {
   border-bottom-color: #1894ff;
 }
 
-.kayo-container {
+.gody-container {
   padding: 0 60px;
   overflow: hidden;
 }
@@ -516,11 +516,11 @@ body {
   vertical-align: middle;
 }
 
-.mrkayo-main-title {
+.mrgody-main-title {
   text-align: center;
   padding-bottom: 60px;
 }
-.mrkayo-main-title h2 {
+.mrgody-main-title h2 {
   font-size: 24px;
   text-transform: uppercase;
   display: inline-block;
@@ -528,14 +528,14 @@ body {
   font-weight: bold;
   letter-spacing: 0.7px;
 }
-.mrkayo-main-title h2 .kayo-line {
+.mrgody-main-title h2 .gody-line {
   display: block;
   width: 100%;
   margin: 15px auto 10px;
   position: relative;
   border-bottom: 2px solid #FFF;
 }
-.mrkayo-main-title h2 .kayo-line:after, .mrkayo-main-title h2 .kayo-line:before {
+.mrgody-main-title h2 .gody-line:after, .mrgody-main-title h2 .gody-line:before {
   content: '';
   display: inline-block;
   width: 15px;
@@ -548,11 +548,11 @@ body {
   transform: rotate(45deg);
   position: absolute;
 }
-.mrkayo-main-title h2 .kayo-line:after {
+.mrgody-main-title h2 .gody-line:after {
   right: -15px;
   bottom: -8px;
 }
-.mrkayo-main-title h2 .kayo-line:before {
+.mrgody-main-title h2 .gody-line:before {
   left: -15px;
   bottom: -8px;
 }
@@ -592,21 +592,21 @@ body {
   padding: 25px 0;
 }
 
-.section-intro .kayo-icon-box-container {
+.section-intro .gody-icon-box-container {
   padding: 30px;
 }
-.section-intro .kayo-icon-box-container .kayo-icon-box {
+.section-intro .gody-icon-box-container .gody-icon-box {
   width: 120px;
   height: 120px;
 }
-.section-intro .kayo-icon-box-container .kayo-icon-box .kayo-icon {
+.section-intro .gody-icon-box-container .gody-icon-box .gody-icon {
   line-height: 120px;
 }
-.section-intro .kayo-icon-box-container .kayo-icon-box:after {
+.section-intro .gody-icon-box-container .gody-icon-box:after {
   left: calc(50% - 60px);
   width: 120px;
 }
-.section-intro .kayo-icon-box-container .kayo-icon-box:before {
+.section-intro .gody-icon-box-container .gody-icon-box:before {
   left: calc(50% - 60px);
   width: 120px;
 }
@@ -619,17 +619,17 @@ body {
   letter-spacing: 1px;
 }
 
-.kayo-icon-list-box {
+.gody-icon-list-box {
   text-align: center;
   position: relative;
   padding-top: 60px;
 }
-.kayo-icon-list-box .kayo-icon-box-container {
+.gody-icon-list-box .gody-icon-box-container {
   position: absolute;
   top: 0;
   width: 100%;
 }
-.kayo-icon-list-box .kayo-list-info {
+.gody-icon-list-box .gody-list-info {
   padding: 60px 15px 15px;
   overflow: hidden;
   -webkit-transition: all 0.25s ease-in-out 0s;
@@ -638,14 +638,14 @@ body {
   -ms-transition: all 0.25s ease-in-out 0s;
   transition: all 0.25s ease-in-out 0s;
 }
-.kayo-icon-list-box .kayo-list-info h4 {
+.gody-icon-list-box .gody-list-info h4 {
   font-size: 16px;
   letter-spacing: 0.7px;
   text-transform: uppercase;
   margin: 20px 0 13px;
   font-weight: 600;
 }
-.kayo-icon-list-box .kayo-list-info p {
+.gody-icon-list-box .gody-list-info p {
   margin-bottom: 0;
   font-size: 14px;
   letter-spacing: 0.7px;
@@ -660,18 +660,18 @@ body {
   position: relative;
   top: 50px;
 }
-.kayo-icon-list-box:hover .kayo-list-info p {
+.gody-icon-list-box:hover .gody-list-info p {
   opacity: 1;
   top: 0;
 }
 
-.kayo-intro-section .overlay {
+.gody-intro-section .overlay {
   padding: 90px 0;
 }
 
 /* 3. aside
 ================================= */
-.kayo-aside {
+.gody-aside {
   position: fixed;
   height: 100%;
 }
@@ -734,26 +734,26 @@ body {
 .slide-menu-container .slide-menu {
   position: relative;
 }
-.slide-menu-container .slide-menu .kayo-user-info {
+.slide-menu-container .slide-menu .gody-user-info {
   position: relative;
   z-index: 10;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media {
+.slide-menu-container .slide-menu .gody-user-info .social-media {
   margin-bottom: 0;
   border-bottom: 1px solid #3a4a5d;
   overflow: hidden;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media li {
+.slide-menu-container .slide-menu .gody-user-info .social-media li {
   float: left;
   width: 20%;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media li:first-child a {
+.slide-menu-container .slide-menu .gody-user-info .social-media li:first-child a {
   border-left: 0;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media li:last-child a {
+.slide-menu-container .slide-menu .gody-user-info .social-media li:last-child a {
   border-right: 0;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media a {
+.slide-menu-container .slide-menu .gody-user-info .social-media a {
   padding: 10px;
   display: inline-block;
   width: 100%;
@@ -763,11 +763,11 @@ body {
   border-left: 1px solid #22303e;
   position: relative;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media a i {
+.slide-menu-container .slide-menu .gody-user-info .social-media a i {
   position: relative;
   z-index: 2;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media a:before {
+.slide-menu-container .slide-menu .gody-user-info .social-media a:before {
   content: '';
   display: block;
   position: absolute;
@@ -782,43 +782,43 @@ body {
   -ms-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media a:hover::before {
+.slide-menu-container .slide-menu .gody-user-info .social-media a:hover::before {
   transform: scale(1);
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media a.facebook:before {
+.slide-menu-container .slide-menu .gody-user-info .social-media a.facebook:before {
   background: #3b5998;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media a.twitter:before {
+.slide-menu-container .slide-menu .gody-user-info .social-media a.twitter:before {
   background: #1da1f2;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media a.behance:before {
+.slide-menu-container .slide-menu .gody-user-info .social-media a.behance:before {
   background: #0057ff;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media a.linkedin:before {
+.slide-menu-container .slide-menu .gody-user-info .social-media a.linkedin:before {
   background: #0077b5;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media a.google-plus:before {
+.slide-menu-container .slide-menu .gody-user-info .social-media a.google-plus:before {
   background: #db4437;
 }
-.slide-menu-container .slide-menu .kayo-user-info .social-media:after {
+.slide-menu-container .slide-menu .gody-user-info .social-media:after {
   content: '';
   display: block;
   border-bottom: 1px solid #22303e;
   clear: both;
 }
-.slide-menu-container .slide-menu .kayo-user-info .kayo-img-box {
+.slide-menu-container .slide-menu .gody-user-info .gody-img-box {
   padding: 10px;
 }
-.slide-menu-container .slide-menu .kayo-user-info .kayo-img-box .kayo-img {
+.slide-menu-container .slide-menu .gody-user-info .gody-img-box .gody-img {
   display: block;
   border: 5px solid rgba(120, 129, 149, 0.19);
 }
-.slide-menu-container .slide-menu .kayo-user-info .kayo-img-box .kayo-img img {
+.slide-menu-container .slide-menu .gody-user-info .gody-img-box .gody-img img {
   width: 100%;
   padding: 5px;
   opacity: 0.5;
 }
-.slide-menu-container .slide-menu .kayo-user-info.kayo-menu-style-1:after, .slide-menu-container .slide-menu .kayo-user-info.kayo-menu-style-1:before {
+.slide-menu-container .slide-menu .gody-user-info.gody-menu-style-1:after, .slide-menu-container .slide-menu .gody-user-info.gody-menu-style-1:before {
   content: "";
   display: inline-block;
   height: 70px;
@@ -827,14 +827,14 @@ body {
   bottom: -27px;
   z-index: 2;
 }
-.slide-menu-container .slide-menu .kayo-user-info.kayo-menu-style-1:after {
+.slide-menu-container .slide-menu .gody-user-info.gody-menu-style-1:after {
   -webkit-transform: skewY(25deg);
   -moz-transform: skewY(25deg);
   -ms-transform: skewY(25deg);
   -o-transform: skewY(25deg);
   transform: skewY(25deg);
 }
-.slide-menu-container .slide-menu .kayo-user-info.kayo-menu-style-1:before {
+.slide-menu-container .slide-menu .gody-user-info.gody-menu-style-1:before {
   right: 0;
   -webkit-transform: skewY(-25deg);
   -moz-transform: skewY(-25deg);
@@ -842,7 +842,7 @@ body {
   -o-transform: skewY(-25deg);
   transform: skewY(-25deg);
 }
-.slide-menu-container .slide-menu .kayo-user-info .kayo-links-toggle {
+.slide-menu-container .slide-menu .gody-user-info .gody-links-toggle {
   position: absolute;
   font-size: 20px;
   display: inline-block;
@@ -851,20 +851,20 @@ body {
   padding-top: 10px;
   z-index: 3;
 }
-.slide-menu-container .slide-menu .kayo-user-info .kayo-links-toggle span {
+.slide-menu-container .slide-menu .gody-user-info .gody-links-toggle span {
   cursor: pointer;
   display: block;
 }
-.slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links {
+.slide-menu-container .slide-menu.gody-menu-style-2 .gody-links {
   margin-bottom: 0;
   border-top: 1px solid #22303e;
 }
-.slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links:before {
+.slide-menu-container .slide-menu.gody-menu-style-2 .gody-links:before {
   content: '';
   display: block;
   clear: both;
 }
-.slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links a {
+.slide-menu-container .slide-menu.gody-menu-style-2 .gody-links a {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
@@ -880,7 +880,7 @@ body {
   letter-spacing: 0.7px;
   font-size: 13px;
 }
-.slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links a i {
+.slide-menu-container .slide-menu.gody-menu-style-2 .gody-links a i {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -902,14 +902,14 @@ body {
   -moz-box-shadow: inset 0 0 15px 0px #1b2838;
   box-shadow: inset 0 0 15px 0px #1b2838;
 }
-.slide-menu-container .slide-menu .kayo-links-toggle {
+.slide-menu-container .slide-menu .gody-links-toggle {
   -webkit-transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
   -ms-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
 }
-.slide-menu-container .slide-menu.menu-opend .kayo-links {
+.slide-menu-container .slide-menu.menu-opend .gody-links {
   bottom: 0px;
 }
 
@@ -924,7 +924,7 @@ body {
   height: 100%;
   overflow: hidden;
 }
-.home .intro-section .kayo-hello {
+.home .intro-section .gody-hello {
   margin: 0;
   font-weight: 700;
   text-transform: uppercase;
@@ -938,7 +938,7 @@ body {
   letter-spacing: 4px;
   line-height: 1;
 }
-.home .intro-section .kayo-work-description {
+.home .intro-section .gody-work-description {
   margin: 0;
   font-weight: 700;
   text-transform: uppercase;
@@ -948,7 +948,7 @@ body {
 /* 5. About Me
 ================================= */
 /* 5.1 About Introduction */
-.aboutMe .kayo-intro-section {
+.aboutMe .gody-intro-section {
   background: url("../images/bg2.jpg") center center no-repeat fixed;
   background-size: cover;
 }
@@ -968,14 +968,14 @@ body {
 .my-information .my-image img:hover {
   opacity: 1;
 }
-.my-information .kayo-info-detail h3 {
+.my-information .gody-info-detail h3 {
   font-size: 24px;
   text-transform: uppercase;
   margin-bottom: 20px;
   font-weight: 700;
   line-height: 1;
 }
-.my-information .kayo-info-detail p {
+.my-information .gody-info-detail p {
   line-height: 24px;
   letter-spacing: 0.7px;
   padding-bottom: 15px;
@@ -987,20 +987,20 @@ body {
 }
 
 /* 5.3 My Service */
-.kayo-service {
+.gody-service {
   background: url("../images/bg1.jpg") center center no-repeat fixed;
   background-size: cover;
 }
-.kayo-service .kayo-container {
+.gody-service .gody-container {
   padding-top: 90px;
   padding-bottom: 60px;
 }
-.kayo-service .kayo-icon-list-box {
+.gody-service .gody-icon-list-box {
   margin-bottom: 30px;
 }
 
 /* 5.4 Client */
-.my-clients-logo .kayo-container {
+.my-clients-logo .gody-container {
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -1032,31 +1032,31 @@ body {
 }
 
 /* 5.5 Facts About Me */
-.kayo-facts-about-me {
+.gody-facts-about-me {
   background: url("../images/bg3.jpg") center center no-repeat fixed;
   background-size: cover;
 }
-.kayo-facts-about-me .kayo-container {
+.gody-facts-about-me .gody-container {
   padding-top: 90px;
   padding-bottom: 40px;
 }
-.kayo-facts-about-me .kayo-info-list .single-info {
+.gody-facts-about-me .gody-info-list .single-info {
   margin-bottom: 50px;
 }
-.kayo-facts-about-me .kayo-info-list .single-info .info-icon {
+.gody-facts-about-me .gody-info-list .single-info .info-icon {
   font-size: 35px;
   font-weight: 900;
   line-height: 1;
 }
-.kayo-facts-about-me .kayo-info-list .single-info .info-icon i {
+.gody-facts-about-me .gody-info-list .single-info .info-icon i {
   font-size: 50px;
   vertical-align: middle;
   margin-right: 20px;
 }
-.kayo-facts-about-me .kayo-info-list .single-info .info-icon span {
+.gody-facts-about-me .gody-info-list .single-info .info-icon span {
   vertical-align: middle;
 }
-.kayo-facts-about-me .kayo-info-list .single-info h3 {
+.gody-facts-about-me .gody-info-list .single-info h3 {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
@@ -1069,7 +1069,7 @@ body {
 .testimonials {
   padding: 90px 0 80px;
 }
-.testimonials .mrkayo-main-title {
+.testimonials .mrgody-main-title {
   padding-bottom: 45px;
 }
 .testimonials .title-name {
@@ -1281,7 +1281,7 @@ body {
 /* 6. Portfolio
 ================================= */
 /* 6.1 Portfolio Introduction */
-.portfolio .kayo-intro-section {
+.portfolio .gody-intro-section {
   background: url("../images/bg4.jpg") center center no-repeat fixed;
   background-size: cover;
 }
@@ -1294,11 +1294,11 @@ body {
   -ms-transition: all 0.25s ease-in-out 0s;
   transition: all 0.25s ease-in-out 0s;
 }
-.port-box .kayo-container {
+.port-box .gody-container {
   padding-top: 90px;
   padding-bottom: 60px;
 }
-.port-box .kayo-taps {
+.port-box .gody-taps {
   display: inline-block;
   position: relative;
   margin-bottom: 0;
@@ -1310,7 +1310,7 @@ body {
   border-radius: 3px;
   padding: 0 20px;
 }
-.port-box .kayo-taps li {
+.port-box .gody-taps li {
   display: inline-block;
   margin-left: 26px;
   padding: 23px 14px 17px;
@@ -1327,7 +1327,7 @@ body {
   -ms-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
 }
-.port-box .kayo-taps li:first-child {
+.port-box .gody-taps li:first-child {
   margin-left: 0;
 }
 .port-box .portfolio-items {
@@ -1450,13 +1450,13 @@ body {
 
 /* 7. Resume
 ================================= */
-.resume .kayo-container {
+.resume .gody-container {
   padding-top: 90px;
   padding-bottom: 75px;
 }
 
 /* 7.1 Resume Introduction */
-.resume .kayo-intro-section {
+.resume .gody-intro-section {
   background: url("../images/skills.jpg") center center no-repeat fixed;
   background-size: cover;
 }
@@ -1570,16 +1570,16 @@ body {
 }
 
 /* 7.3 My Skills */
-.kayo-skills {
+.gody-skills {
   background: url("../images/skills.jpg") center center no-repeat fixed;
   background-size: cover;
 }
-.kayo-skills .technical-skills .progress-bar-container {
+.gody-skills .technical-skills .progress-bar-container {
   padding-top: 35px;
   position: relative;
   margin-bottom: 15px;
 }
-.kayo-skills .technical-skills .progress-bar-container .progress {
+.gody-skills .technical-skills .progress-bar-container .progress {
   height: 5px;
   margin-bottom: 0px;
   -webkit-border-radius: 0;
@@ -1589,15 +1589,15 @@ body {
   border-radius: 0;
   background-color: #3a4a5d;
 }
-.kayo-skills .technical-skills .progress-bar-container .progress.active .progress-bar, .kayo-skills .technical-skills .progress-bar-container .progress .progress-bar.active {
+.gody-skills .technical-skills .progress-bar-container .progress.active .progress-bar, .gody-skills .technical-skills .progress-bar-container .progress .progress-bar.active {
   transition: all 1100ms ease-in-out;
 }
-.kayo-skills .technical-skills .progress-bar-container h3 {
+.gody-skills .technical-skills .progress-bar-container h3 {
   margin: 10px 0 0;
   font-size: 16px;
   font-weight: 400;
 }
-.kayo-skills .technical-skills .progress-bar-container .timer {
+.gody-skills .technical-skills .progress-bar-container .timer {
   transition: all 1100ms ease-in-out;
   left: -13px;
   top: 0;
@@ -1611,7 +1611,7 @@ body {
   -ms-border-radius: 3px;
   border-radius: 3px;
 }
-.kayo-skills .technical-skills .progress-bar-container .timer:before {
+.gody-skills .technical-skills .progress-bar-container .timer:before {
   content: '';
   display: inline-block;
   border: 5px solid transparent;
@@ -1621,27 +1621,27 @@ body {
   bottom: -5px;
   left: calc(50% - 5px);
 }
-.kayo-skills .technical-skills .progress-bar-container.primary-style .timer:before {
+.gody-skills .technical-skills .progress-bar-container.primary-style .timer:before {
   border-top-color: #1894ff;
 }
-.kayo-skills .soft-skills {
+.gody-skills .soft-skills {
   margin-bottom: 40px;
 }
-.kayo-skills .soft-skills .progress-container {
+.gody-skills .soft-skills .progress-container {
   text-align: center;
   margin: auto;
   margin-bottom: 50px;
 }
-.kayo-skills .soft-skills .progress-container .progressName {
+.gody-skills .soft-skills .progress-container .progressName {
   width: 100%;
   max-width: 100px;
   display: inline-block;
 }
-.kayo-skills .soft-skills .progress-container .progressName > svg {
+.gody-skills .soft-skills .progress-container .progressName > svg {
   height: 100%;
   display: inline-block;
 }
-.kayo-skills .soft-skills .progress-container .progress-val {
+.gody-skills .soft-skills .progress-container .progress-val {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1650,7 +1650,7 @@ body {
   transform: translate(-50%, -50%);
   font-size: 20px;
 }
-.kayo-skills .soft-skills .progress-container h3 {
+.gody-skills .soft-skills .progress-container h3 {
   margin: 0;
   font-size: 16px;
   font-weight: 400;
@@ -1659,7 +1659,7 @@ body {
 
 /* 8. Blog
 ================================= */
-.blog .kayo-intro-section {
+.blog .gody-intro-section {
   background: url("../images/blog.jpg") center bottom no-repeat fixed;
   background-size: cover;
 }
@@ -2006,13 +2006,13 @@ body {
 
 /* 9. Contact
 ================================= */
-.contact .kayo-container {
+.contact .gody-container {
   padding-top: 90px;
   padding-bottom: 60px;
 }
 
 /* 9.1 Contact Introduction */
-.contact .kayo-intro-section {
+.contact .gody-intro-section {
   background: url("../images/contact.jpg") center bottom no-repeat fixed;
   background-size: cover;
 }
@@ -2021,7 +2021,7 @@ body {
 .contact-ways {
   background: #1b2838;
 }
-.contact-ways .kayo-icon-list-box {
+.contact-ways .gody-icon-list-box {
   margin-bottom: 30px;
 }
 
@@ -2030,38 +2030,38 @@ body {
   background: url("../images/contact.jpg") center bottom no-repeat fixed;
   background-size: cover;
 }
-.contact-form .kayo-container {
+.contact-form .gody-container {
   padding-bottom: 90px;
 }
-.contact-form .kayo-form {
+.contact-form .gody-form {
   overflow: hidden;
 }
-.contact-form .kayo-form .input-row {
+.contact-form .gody-form .input-row {
   margin-right: -3px;
   margin-left: -3px;
   overflow: hidden;
 }
-.contact-form .kayo-form .input-row .form-group {
+.contact-form .gody-form .input-row .form-group {
   width: 50%;
   float: left;
   padding-right: 3px;
   padding-left: 3px;
 }
-.contact-form .kayo-form .input-row:first-child .form-group:first-child .form-control {
+.contact-form .gody-form .input-row:first-child .form-group:first-child .form-control {
   -webkit-border-radius: 15px 0 0 0;
   -moz-border-radius: 15px 0 0 0;
   -o-border-radius: 15px 0 0 0;
   -ms-border-radius: 15px 0 0 0;
   border-radius: 15px 0 0 0;
 }
-.contact-form .kayo-form .input-row:first-child .form-group:last-child .form-control {
+.contact-form .gody-form .input-row:first-child .form-group:last-child .form-control {
   -webkit-border-radius: 0 15px 0 0;
   -moz-border-radius: 0 15px 0 0;
   -o-border-radius: 0 15px 0 0;
   -ms-border-radius: 0 15px 0 0;
   border-radius: 0 15px 0 0;
 }
-.contact-form .kayo-form .kayo-btn-1 {
+.contact-form .gody-form .gody-btn-1 {
   -webkit-border-radius: 0 0 15px 15px;
   -moz-border-radius: 0 0 15px 15px;
   -o-border-radius: 0 0 15px 15px;
@@ -2069,10 +2069,10 @@ body {
   border-radius: 0 0 15px 15px;
   overflow: hidden;
 }
-.contact-form .kayo-form .form-group {
+.contact-form .gody-form .form-group {
   margin-bottom: 6px;
 }
-.contact-form .kayo-form .form-control {
+.contact-form .gody-form .form-control {
   border: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -2083,7 +2083,7 @@ body {
   outline: none;
   height: 45px;
 }
-.contact-form .kayo-form textarea.form-control {
+.contact-form .gody-form textarea.form-control {
   resize: none;
   height: 100px;
 }
@@ -2707,7 +2707,7 @@ body {
     transform: translateX(230px);
   }
 
-  .portfolio .port-box .kayo-taps li {
+  .portfolio .port-box .gody-taps li {
     margin-left: 20px;
     padding: 23px 10px 17px;
   }
@@ -2718,7 +2718,7 @@ body {
     overflow-Y: visible;
   }
 
-  .kayo-icon-box-container .kayo-icon-box .kayo-icon {
+  .gody-icon-box-container .gody-icon-box .gody-icon {
     font-size: 35px;
   }
 
@@ -2765,23 +2765,23 @@ body {
     padding-bottom: 150px;
   }
 
-  .kayo-container {
+  .gody-container {
     padding: 0 20px;
   }
 
-  .section-intro .kayo-icon-box-container .kayo-icon-box {
+  .section-intro .gody-icon-box-container .gody-icon-box {
     width: 80px;
     height: 80px;
   }
-  .section-intro .kayo-icon-box-container .kayo-icon-box .kayo-icon {
+  .section-intro .gody-icon-box-container .gody-icon-box .gody-icon {
     line-height: 80px;
     font-size: 27px;
   }
-  .section-intro .kayo-icon-box-container .kayo-icon-box:after {
+  .section-intro .gody-icon-box-container .gody-icon-box:after {
     left: calc(50% - 40px);
     width: 80px;
   }
-  .section-intro .kayo-icon-box-container .kayo-icon-box:before {
+  .section-intro .gody-icon-box-container .gody-icon-box:before {
     left: calc(50% - 40px);
     width: 80px;
   }
@@ -2790,15 +2790,15 @@ body {
     margin-top: 12px;
   }
 
-  .mrkayo-main-title h2 {
+  .mrgody-main-title h2 {
     font-size: 16px;
   }
 
-  .mrkayo-main-title {
+  .mrgody-main-title {
     padding-bottom: 40px;
   }
 
-  .kayo-icon-list-box .kayo-list-info p {
+  .gody-icon-list-box .gody-list-info p {
     opacity: 1;
     top: 0;
   }
@@ -2812,15 +2812,15 @@ body {
     font-size: 16px !important;
   }
 
-  .aboutMe .kayo-intro-section .kayo-container {
+  .aboutMe .gody-intro-section .gody-container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .aboutMe .kayo-service .kayo-container {
+  .aboutMe .gody-service .gody-container {
     padding-top: 60px;
     padding-bottom: 30px;
   }
-  .aboutMe .my-clients-logo .kayo-container {
+  .aboutMe .my-clients-logo .gody-container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -2830,7 +2830,7 @@ body {
   .aboutMe .my-clients-logo .client-logo {
     margin: 0 10px;
   }
-  .aboutMe .kayo-facts-about-me .kayo-container {
+  .aboutMe .gody-facts-about-me .gody-container {
     padding-top: 60px;
     padding-bottom: 10px;
   }
@@ -2838,13 +2838,13 @@ body {
   .my-information {
     padding: 60px 0;
   }
-  .my-information .kayo-info-detail {
+  .my-information .gody-info-detail {
     padding-top: 15px;
   }
-  .my-information .kayo-info-detail h3 {
+  .my-information .gody-info-detail h3 {
     font-size: 20px;
   }
-  .my-information .kayo-info-detail p {
+  .my-information .gody-info-detail p {
     line-height: 22px;
     letter-spacing: 0.4px;
     font-size: 13px;
@@ -2859,7 +2859,7 @@ body {
   .testimonials {
     padding: 60px 0 50px;
   }
-  .testimonials .mrkayo-main-title {
+  .testimonials .mrgody-main-title {
     padding-bottom: 30px;
   }
   .testimonials .testi-user-info h3 {
@@ -2880,36 +2880,36 @@ body {
     line-height: 22px;
   }
 
-  .kayo-facts-about-me .kayo-info-list .single-info .info-icon {
+  .gody-facts-about-me .gody-info-list .single-info .info-icon {
     font-size: 28px;
     font-weight: 700;
   }
-  .kayo-facts-about-me .kayo-info-list .single-info h3 {
+  .gody-facts-about-me .gody-info-list .single-info h3 {
     font-size: 14px;
   }
 
-  .portfolio .kayo-intro-section .kayo-container {
+  .portfolio .gody-intro-section .gody-container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .portfolio .port-box .kayo-container {
+  .portfolio .port-box .gody-container {
     padding-top: 60px;
     padding-bottom: 30px;
   }
   .portfolio .port-box .portfolio-items {
     padding-top: 40px;
   }
-  .portfolio .port-box .kayo-taps li {
+  .portfolio .port-box .gody-taps li {
     margin-left: 10px;
     padding: 20px 5px;
     border: 0;
   }
 
-  .resume .kayo-intro-section .kayo-container {
+  .resume .gody-intro-section .gody-container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .resume .kayo-container {
+  .resume .gody-container {
     padding-top: 60px;
     padding-bottom: 45px;
   }
@@ -2930,19 +2930,19 @@ body {
     line-height: 22px;
   }
 
-  .kayo-skills .soft-skills .progress-container {
+  .gody-skills .soft-skills .progress-container {
     margin-bottom: 40px;
   }
-  .kayo-skills .soft-skills .progress-container h3 {
+  .gody-skills .soft-skills .progress-container h3 {
     font-size: 14px;
     font-weight: 400;
     margin-top: 15px;
   }
-  .kayo-skills .technical-skills .progress-bar-container h3 {
+  .gody-skills .technical-skills .progress-bar-container h3 {
     font-size: 14px;
   }
 
-  .blog .kayo-container {
+  .blog .gody-container {
     padding-top: 60px;
     padding-bottom: 30px;
   }
@@ -2951,29 +2951,29 @@ body {
     display: none;
   }
 
-  .contact .kayo-intro-section .kayo-container {
+  .contact .gody-intro-section .gody-container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .contact .kayo-container {
+  .contact .gody-container {
     padding-top: 60px;
     padding-bottom: 30px;
   }
-  .contact .contact-form .kayo-container {
+  .contact .contact-form .gody-container {
     padding-bottom: 60px;
   }
-  .contact .kayo-form .input-row .form-group {
+  .contact .gody-form .input-row .form-group {
     width: 100%;
     float: none;
   }
-  .contact .kayo-form .input-row:first-child .form-group:first-child .form-control {
+  .contact .gody-form .input-row:first-child .form-group:first-child .form-control {
     -webkit-border-radius: 15px 15px 0 0;
     -moz-border-radius: 15px 15px 0 0;
     -o-border-radius: 15px 15px 0 0;
     -ms-border-radius: 15px 15px 0 0;
     border-radius: 15px 15px 0 0;
   }
-  .contact .kayo-form .input-row:first-child .form-group:last-child .form-control {
+  .contact .gody-form .input-row:first-child .form-group:last-child .form-control {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -o-border-radius: 0;
@@ -2981,11 +2981,11 @@ body {
     border-radius: 0;
   }
 
-  .kayo-icon-list-box .kayo-list-info h4 {
+  .gody-icon-list-box .gody-list-info h4 {
     font-size: 15px;
     margin: 20px 0 10px;
   }
-  .kayo-icon-list-box .kayo-list-info p {
+  .gody-icon-list-box .gody-list-info p {
     font-size: 12px;
     line-height: 22px;
   }
