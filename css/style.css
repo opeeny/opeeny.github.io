@@ -811,12 +811,15 @@ body {
 }
 .slide-menu-container .slide-menu .kayo-user-info .kayo-img-box .kayo-img {
   display: block;
-  border: 5px solid rgba(120, 129, 149, 0.19);
+  border: 2px solid yellowgreen;
+  border-radius: 50%;
+  
 }
 .slide-menu-container .slide-menu .kayo-user-info .kayo-img-box .kayo-img img {
   width: 100%;
-  padding: 5px;
-  opacity: 0.5;
+  padding: 1px;
+  opacity: 1.5;
+  border-radius: 50%;
 }
 .slide-menu-container .slide-menu .kayo-user-info.kayo-menu-style-1:after, .slide-menu-container .slide-menu .kayo-user-info.kayo-menu-style-1:before {
   content: "";
