@@ -141,7 +141,7 @@
 			</p>
 			<p>I am a passionate graphics designer which has had a huge impact on the start of my career, but that's a story for another time.
 			I have worked very hard to get where I am today, but I'm just passionate about where my career is leading me, although many dont see it yet because its a gradual. 
-			The challenges that I deal with on a day-to-day basis I find meaningful and rewarding. Thats the GOP you can talk about.<a href = "#know">Read More</a>
+			The challenges that I deal with on a day-to-day basis I find meaningful and rewarding. Thats the GOP you can talk about.<a href = "#know">Read about-me</a>
 			</p>
 		</div>
                 </div>
@@ -1331,7 +1331,7 @@
                                 <div class="kayo-list-info">
                                     <h4>Email</h4>
                                     <p>
-                                        opeenybusiness@gmail.com
+                                        godfreyopeeny@gmail.com
                                     </p>
                                 </div>
                             </div>
@@ -1352,24 +1352,27 @@
                             <div class="col-lg-8 col-lg-offset-2 col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1">
                                 <form class="kayo-form" action="php/sendMessage.php" method="post" id="contact_form">
                                     <div class="input-row">
+                                        
                                         <div class="form-group">
-                                            <input class="form-control" type="text" placeholder="Message About .." name="messageAbout" data-messageAboutValidation>
+                                            <label for = "fullname">Name (Required):</label>
+                                            <input class="form-control" type="text" required  placeholder="Your Full Name" name="full_name" data-nameValidation>
                                         </div>
                                         <div class="form-group">
-                                            <input class="form-control" type="text" placeholder="Your Full Name" name="full_name" data-nameValidation>
+                                                <label for = "fullname">Your message:</label>
+                                            <textarea class="form-control" placeholder="Your Message .." name="message" data-messageValidation></textarea>
                                         </div>
                                     </div>
                                     <div class="input-row">
                                         <div class="form-group">
-                                            <input class="form-control" type="text" placeholder="E-mail" name="email" data-emailValidation>
+                                            <label for = "fullname">Email (Required):</label>
+                                            <input class="form-control" type="email" required placeholder="E-mail" name="email" data-emailValidation>
                                         </div>
+                                        <label for = "email">Telephone:</label>
                                         <div class="form-group">
-                                            <input class="form-control" type="text" placeholder="phone" name="phone" data-phoneValidation>
+                                            <input class="form-control" type="tel" placeholder="phone" name="phone" data-phoneValidation>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" placeholder="Your Message .." name="message" data-messageValidation></textarea>
-                                    </div>
+                                   
                                     <div>
                                         <button class="btn kayo-btn-1 btn-block btn-rgba" type="submit" name="submit_contact_form">
                                             <i class="fa fa-send-o"></i> Send Your Message
