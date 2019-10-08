@@ -94,7 +94,9 @@ a (active):	#FFF (White)
 .main-themeColor-bgRGBA, .sakura-demo2 .home .open-page a:hover {
   background: rgba(24, 148, 255, 0.5);
 }
-
+.invisible {
+  display: hidden;
+}
 .content-txt-1, .kayo-icon-list-box .kayo-list-info p, .home .intro-section .kayo-hello, .home .intro-section .kayo-work-description, .my-information .kayo-info-detail p, .testimonials .testi-user-info h5, .testimonials .testi-desc-box p, .port-box .kayo-taps li, .education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-details p {
   color: #BBB;
 }
