@@ -28,7 +28,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href="cover.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-	<script src="https://kit.fontawesome.com/a29b4af07c.js"></script>
+    <script src="https://kit.fontawesome.com/a29b4af07c.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar-scrolled" data-offset="0" class="scrollspy-example">
 <aside class="kayo-aside">
@@ -806,6 +807,16 @@
                                     Technical Skills
                                     <span class="kayo-line"></span>
                                 </h2>
+                                  <div class="take-my-resume">
+                                  <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle kayo-btn-1" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-cloud-download"></span>Core skills</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://app.pluralsight.com/score/skill-assessment/javascript?context=paths&path_type=skill&path_url=javascript">JavaScript</a></li>
+                                        <li><a href="https://app.pluralsight.com/score/skill-assessment/html5?context=paths&path_type=skill&path_url=html5#/preassessment">HTML</a></li>
+                                        <li><a href="https://app.pluralsight.com/score/skill-assessment/css?context=search#/preassessment">CSS</a></li>
+                                    </ul>
+                                </div>
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
@@ -1194,6 +1205,45 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="entry-content">
+                                            <div class="entry-post-info">
+                                                <h4><a href="#">Normal Post Style</a></h4>
+                                                <p>Posted 2 Jul</p>
+                                            </div>
+                                            <div class="entry-expert">
+                                                <p>
+                                                                        SQL Commands
+                                                You have already learned a lot about writing code in SQL! Let's take a moment to recap all that we have covered before moving on:
+
+                                                Statement	How to Use It	Other Details
+                                                SELECT	SELECT Col1, Col2, ...	Provide the columns you want
+                                                FROM	FROM Table	Provide the table where the columns exist
+                                                LIMIT	LIMIT 10	Limits based number of rows returned
+                                                ORDER BY	ORDER BY Col	Orders table based on the column. Used with DESC.
+                                                WHERE	WHERE Col > 5	A conditional statement to filter your results
+                                                LIKE	WHERE Col LIKE '%me%'	Only pulls rows where column has 'me' within the text
+                                                IN	WHERE Col IN ('Y', 'N')	A filter for only rows with column of 'Y' or 'N'
+                                                NOT	WHERE Col NOT IN ('Y', 'N')	NOT is frequently used with LIKE and IN
+                                                AND	WHERE Col1 > 5 AND Col2 < 3	Filter rows where two or more conditions must be true
+                                                OR	WHERE Col1 > 5 OR Col2 < 3	Filter rows where at least one condition must be true
+                                                BETWEEN	WHERE Col BETWEEN 3 AND 5	Often easier syntax than using an AND
+                                                Other Tips
+                                                Though SQL is not case sensitive (it doesn't care if you write your statements as all uppercase or lowercase), we discussed some best practices. The order of the key words does matter! Using what you know so far, you will want to write your statements as:
+
+                                                SELECT col1, col2
+                                                FROM table1
+                                                WHERE col3  > 5 AND col4 LIKE '%os%'
+                                                ORDER BY col5
+                                                LIMIT 10;
+                                                Notice, you can retrieve different columns than those being used in the ORDER BY and WHERE statements. Assuming all of these column names existed in this way (col1, col2, col3, col4, col5) within a table called table1, this query would run just fine.
+                                                Creating a new column that is a combination of existing columns is known as a derived column (or "calculated" or "computed" column.
+                                                </p>
+                                                <div class="post-readMore">
+                                                    <a href="#" class="pull-left read-more-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                                    <span class="pull-right"><a href="#">1 COMMENT</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="entry-footer">
                                             <ul class="entry-tags list-unstyled list-inline">
                                                 <li><a href="#">Design</a></li>
@@ -1406,7 +1456,8 @@
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/ajax.js"></script>
-
+<script src="js/popperx.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <!-- end the script -->
 </body>
 </html>
