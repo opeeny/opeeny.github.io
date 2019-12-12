@@ -130,3 +130,6 @@ text-shadow: 3px 3px 10px #fff;
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+.here {
+  color: yellow;
+}
