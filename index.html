@@ -57,4 +57,15 @@
 	</div>
 </body>
 <script src = 'js/script.js'></script>
+<script>
+	if('serviceWorker' in navigator) {
+		navigator.serviceWorker
+		.register('/sw.js')
+		.then(function(register) { 
+			console.log("service worker Registered", register.scope); }, 
+			function(err){
+			console.log("service worker Registration failed", err)
+			});
+	}
+</script>
 </html>
