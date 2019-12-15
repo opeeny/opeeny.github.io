@@ -64,8 +64,11 @@
 		.then(function(register) { 
 			console.log("service worker Registered", register.scope); }, 
 			function(err){
-			console.log("service worker Registration failed", err)
+			console.log("service worker Registration failed ", err)
 			});
-	}
+		navigator.serviceWorker.ready.then(function(registration) {
+		console.log('Service Worker Ready');
+	});
+}
 </script>
 </html>
