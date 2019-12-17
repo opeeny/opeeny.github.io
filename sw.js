@@ -25,6 +25,7 @@ var urlsToCache = [
     '/js/script.js',
     '/js/slick.min.js',
     '/js/typed.min.js',
+    '/manifest.json',
     '/images/opeeny.jpg',
     '/images/andrew.jpeg',
     '/images/cover.jpg',
@@ -39,6 +40,14 @@ var urlsToCache = [
     '/images/clients/eddy.jpeg',
     '/images/clients/nature.JPG',
     '/images/clients/round.JPG',
+    '/images/android-chrome-192x192.png',
+    '/images/android-chrome-512x512.png',
+    '/images/apple-touch-icon.png',
+    '/images/mstile-150x150.png',
+    '/images/safari-pinned-tab.svg',
+    '/images/favicon-16x16.png',
+    'images/favicon-32x32.png'
+
 ];
 
 self.addEventListener('install', function(e) {
