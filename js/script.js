@@ -19,9 +19,20 @@ function digitalClock() {
     sec = '0' + sec;
     }
      clockResult = weekDays[day] + ' '+ hours + ':'+ minutes + ':'+ sec;
-    console.log(clockResult);
+    //console.log(clockResult);
     //DOM
     document.querySelector('#clock').innerHTML = clockResult;
 }
 digitalClock();
 setInterval(digitalClock, 1000);
+function topNavbar() {
+   // alert("pxz");
+    var topNav = document.getElementById("topMenu");
+    if(topNav.className == "topnav") {
+       topNav.className += "responsive"; 
+    } else {
+        topNav.className = "topnav";
+    }
+    //alert("xxend");
+}
+topNavbar();
