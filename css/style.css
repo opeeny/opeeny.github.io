@@ -63,6 +63,11 @@ a (standard):	#869cb1 (Gray blue)
 a (hover):	#FFF (White)
 a (active):	#FFF (White)
 ------------------------------------------------------------------*/
+/*Responsive design*/
+html { font-size:100%; }
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
 .main-content-color-txt, .kayo-btn-1, .kayo-btn-1:hover, .kayo-btn-1:focus, .kayo-btn-1:active, .main-page-content > section, .control-bar, .slide-menu-container .slide-menu .kayo-user-info .social-media a, .slide-menu-container .slide-menu .kayo-user-info .kayo-links-toggle span, .slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links a:hover, .slide-menu-container .slide-menu.kayo-menu-style-2 .kayo-links li.active a, .kayo-facts-about-me .kayo-info-list .single-info .info-icon, .kayo-facts-about-me .kayo-info-list .single-info .info-icon i, .testimonials .testi-user-info h3, .testimonials .testi-desc-box i, .port-box .portfolio-items .portfolio-item .port-data .port-data-back-card .port-show-info, .kayo-skills .soft-skills .progress-container .progress-val, .normal-post .entry-header .post-category a, .normal-post .entry-header .post-share li a, .normal-post .entry-header .post-share li span, .normal-post .entry-content .entry-post-info h4 a, .normal-post .entry-content .entry-expert .post-readMore a:hover, .normal-post .entry-footer .entry-tags a:hover, .contact-form .kayo-form .form-control {
   color: #FFFFFF;
 }
