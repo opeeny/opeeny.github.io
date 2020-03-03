@@ -4,8 +4,28 @@
 
 /* Links */
 /*Responsive design*/
-html {font-size: 100%;}
+html {font-size: 100%;} 
+img { max-width: 100%;}
 
+main .btn:hover {
+  background-color: green;
+  color: #fff;
+}
+a[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  background-color: green;
+}
+abbr[title]:hover:after {
+  content: attr(title);
+  position: relative;/*Position: absolute*/
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.1s ease 0.5s
+  /* background-color: green; */
+}
+
+/*abbr[title="World Health Organization"] {color: red;}*/
 @media (min-width: 640px) { body {font-size:1rem;} } 
 @media (min-width:960px) { body {font-size:1.2rem;} } 
 @media (min-width:1100px) { body {font-size:1.5rem;} } 
