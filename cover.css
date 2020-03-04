@@ -24,6 +24,9 @@ abbr[title]:hover:after {
   transition: all 0.1s ease 0.5s
   /* background-color: green; */
 }
+#main {
+  text-align: justify;
+}
 
 /*abbr[title="World Health Organization"] {color: red;}*/
 @media (min-width: 640px) { body {font-size:1rem;} } 
