@@ -1,85 +1,192 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head> 
-	<title>Opeeny Godfrey</title>
-	<!---- Global site tag (gtag.js) - Google Analytics --->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148849708-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-148849708-1');
-	</script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="title" content = "Opeeny Godfrey | Home">
-	<meta name="description" content="They crownd me a screen writer, a mobile web developer, a data scientist based in Kampala Uganda, studied Software Engineering at Makerere University and mobile web design at pluralsight, mobile web specialist, Opeeny Godfrey the mobile web design. 
-	Patience, I'm just patiently working my way up to the top, #freedom, because that's what i love, freedom. Although many don't see it yet because its a journey that has to be walked through. 
-	The challenges that I deal with on a day-to-day basis I find meaningful and rewarding.">
-    <meta name="author" content="Opeeny Godfrey">
-    <meta name="HandheldFriendly" content="true">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="application-name" content="opeeny.github.io">
-    <meta name="author" content="https://plus.google.com/+opeeny"/>
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
-    <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link href="cover.css" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/a29b4af07c.js"></script>
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#2b5797">
-	<meta name="theme-color" content="#010824">
-  </head> 
-  <body class="text-center">
-	<div class="container cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-		<header class="masthead mb-auto">
-			<div class="inner">
-			<a href="home.html"><h3 class="masthead-brand topnav logo-active">Opeeny</a></h3>
-			<nav class="nav nav-masthead justify-content-center navbar-toggle">
-				<div class="topnav" id="topMenu">
-					<a class="nav-link" href="https://opeeny.github.io/home.html#contact">Contact me</a>
-					<a class="nav-link" href= "https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FEFtLjgzWsAAS11o.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2Fayiyag&docid=3QMVnEgaTHjN_M&tbnid=-Z6pdHNwYIJCGM%3A&vet=10ahUKEwiwqIDK1rzmAhUHVBUIHdlgA4IQMwhDKAowCg..i&w=1136&h=547&client=firefox-b-d&bih=637&biw=1299&q=opeeny%20godfrey&ved=0ahUKEwiwqIDK1rzmAhUHVBUIHdlgA4IQMwhDKAowCg&iact=mrc&uact=8" target = "_blank"><abbr title="Pluralsight, Uadcity">Learning</a>
-					<a class="nav-link" href="https://commits.top/uganda.html" target="_blank"><abbr title = "most active users" >Github</abbr></a>
-					<a class="icon" onclick="topNavbar()">
-					 <abbr title="Menu"> <i class="fa fa-bars"></i></abbr>
-					</a>
-				</div>	  
-			</nav>
-			</div>
-		</header>
-		<main role="main" id = 'main' class="inner cover">
-			<h2>I'm a mobile web system developer with interests in a data-science</h2><span class="opeeny-top">accredited </span><a href = "https://confirm.udacity.com/7EC7VUS6"  target="_blank"><span class = "here">data-scientist</span></a>
-			<p class="lead">They crownd me a screen writer. This didn't make any fun off me either, until i realised that in this information age<mark> skills</mark> matter, nothing more, nothing less!</p>
-			<p class="lead">
-			 <a href="home.html" title="Godfrey" class="btn btn-lg btn-secondary">View profile</a>
-			<p class = "lead">All web applications that responsively render well in your mobile device, much better than an android or IOS apps, with an offline capeability</p><progress></progress>
-			 <h2 id = "clock"></h2>
-			</p> 
-		</main>
-		<footer class="mastfoot mt-auto">
-			<div class="inner">
-			  <p><small><abbr title="Studied software engineering">Background</abbr><a href="https://www.mak.ac.ug/"> Makerere University</a>, Tweet<a href="https://twitter.com/ayiyag"><abbr title = "Opeeny Godfrey"> @AyiyaG &copy;2020, Year of progress(Failing forward)</abbr></a></small>.</p>
-			</div>
-		</footer>
-	</div>
-</body>
-<script src = 'js/script.js'></script>
-<script>
-	if('serviceWorker' in navigator) {
-		navigator.serviceWorker
-		.register('/sw.js')
-		.then(function(register) { 
-			console.log("service worker Registered", register.scope); }, 
-			function(err){
-			console.log("service worker Registration failed ", err)
-			});
-		navigator.serviceWorker.ready.then(function(registration) {
-		console.log('Service Worker Ready');
-	});
-}
-</script>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-145115626-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-145115626-1");
+    </script>
+
+    <meta name="keywords" content="html, css, js" />
+    <meta name="description" content="Web Developer" />
+    <meta name="author" content="Harold Cabrera" />
+    <meta
+      name="google-site-verification"
+      content="SOw56iWUxcuABm4aUCscrPOcS0jgVPNptLOvyUc3yjo"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Opeeny Godfrey | Web developer</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/fav/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/rwd/responsive-index.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <section class="left">
+		 <h2><span>Opeeny</span> Godfrey</h2>
+          <img src="img/pp.jpg" alt="opeeny" class="avatar" />
+          <p class="title">web developer</p>
+          <figure class="social-links">
+            <a href="https://twitter.com/chattingharold" target="_blank">
+              <img
+                src="img/linkedin.svg"
+                alt="twitter image"
+                class="twitter-icon"
+              />
+            </a>
+			 <a href="https://twitter.com/chattingharold" target="_blank">
+              <img
+                src="img/twitter-icon.svg"
+                alt="twitter image"
+                class="twitter-icon"
+              />
+            </a>
+			 <a href="https://twitter.com/opeeny" target="_blank">
+              <img
+                src="img/facebook.svg"
+                alt="twitter image"
+                class="twitter-icon"
+              />
+            </a>
+            <a
+              href="https://www.github.com/opeeny/"
+              target="_blank"
+            >
+              <img
+                src="img/github.svg"
+                alt="github/opeeny"
+                class="instagram-icon"
+              />
+            </a>
+			
+            </a>
+          </figure>
+          <div class="contact">
+            <div class="location-container">
+              <img
+                src="img/location.svg"
+                alt="calendar icon"
+                class="location"
+              />
+              <span>Kampala, Uganda</span>
+            </div>
+            <div class="git-container">
+              <img src="img/github.svg" alt="calendar icon" class="git" />
+			   
+              <span
+                ><a href="https://github.com/opeeny" target="_blank"
+                  >Software development</a
+                ></span
+              >
+			  <img src="img/github.svg" alt="calendar icon" class="git" />
+			   
+              <span
+                ><a href="https://github.com/opeeny" target="_blank"
+                  >Graphics Design</a
+                ></span
+              >
+            </div>
+            <div class="email-container">
+              <a href="mailto:godfreyopeeny@gmail.com" class="coa">Email me</a>
+            </div>
+          </div>
+        </section>
+        <section class="right">
+          <header class="top-section">
+            <div class="top-container">
+              <div class="info">
+                <h2>About me</h2>
+                <hr class="divider" />
+                <p>
+                  I'm a mobile web system developer with interests in a data-science, data-communication in telecom</h2><span class="opeeny-top">, accredited </span><a href = "https://confirm.udacity.com/7EC7VUS6"  target="_blank"><span class = "here">data-scientist</span></a>
+                </p>
+              </div>
+              <figure class="opeeny-menu">
+                <a href="#">
+                  <img src="img/opeeny-icon.png" width = '30' alt="opeeny menu" class="opeeny-icon" />
+                </a>
+                <ul class="active">
+                  <li>
+                    <a href="https://drive.google.com/file/d/1Hyd_G15bG8nasiUUwPmsdDlrO6F8Y_o9/view?usp=sharing" target="_blank">View Resume</a>
+                  </li>
+                </ul>
+              </figure>
+            </div>
+          </header>
+          <div class="latest-news">
+            <h2>What I do</h2>
+          </div>
+          <div class="card-section">
+            <div class="web-card">
+            
+              <div class="web-description">
+                <h4>Web development</h4>
+                <p>
+                 <mark>Javascript</mark>: | React | Vue | Nodejs
+                </p>
+              </div>
+            </div>
+            <div class="email-card">
+              
+              <div class="web-description">
+                <h4>Device Flashing & Unlocking</h4>
+                <p>
+                 Flashing
+                </p>
+              </div>
+            </div>
+            <div class="mobile-card">
+              
+              <div class="web-description">
+                <h4>Graphics design</h4>
+                <p>
+                  <mark>Photoshop</mark>: Able to create beutiful images <br />
+                  at a professional level
+                </p>
+              </div>
+            </div>
+            <div class="support-card">
+             
+              <div class="web-description">
+                <h4>Strong support</h4>
+              
+                <p>I communicate and pass ideas in to clients in a simple way</p><br/>
+                <progress></progress>
+              </div>
+             
+            </div>
+          </div>
+         
+        </section>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
 </html>
