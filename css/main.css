@@ -26,8 +26,13 @@ body {
     flex-direction: column;
     position: sticky;
 }
-
-
+figcaption {
+	display: none;
+	
+}
+.fig img {
+	margin-left: -4rem;
+}
 /* ++++++++++++++++++++ UNIVERSAL STYLES++++++++++++++++++++ */
 
 li {
