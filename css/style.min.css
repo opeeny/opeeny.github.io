@@ -1,0 +1,321 @@
+/* ======================================
+   GLOBAL RESET
+====================================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html, body{
+height:100%;
+}
+
+body{
+display:flex;
+flex-direction:column;
+min-height:100vh;
+font-family:Arial, sans-serif;
+line-height:1.6;
+color:#222;
+background:#f8fafc;
+}
+
+main{
+flex:1;
+}
+
+/* ======================================
+   LAYOUT
+====================================== */
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:0 20px;
+}
+
+.section{
+padding:80px 0;
+}
+
+.center{
+text-align:center;
+}
+
+/* ======================================
+   NAVIGATION
+====================================== */
+
+.navbar{
+background:#111827;
+padding:15px 0;
+position:relative;
+z-index:1000;
+}
+
+.nav-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:#fff;
+font-size:20px;
+font-weight:600;
+}
+
+.nav-content nav{
+display:flex;
+align-items:center;
+gap:25px;
+}
+
+.navbar a{
+color:#fff;
+text-decoration:none;
+font-weight:500;
+transition:0.2s ease;
+}
+
+.navbar a:hover{
+color:#3b82f6;
+}
+
+/* ======================================
+   DROPDOWN (FIXED VERSION)
+====================================== */
+
+.dropdown{
+position:relative;
+}
+
+.dropdown > a{
+cursor:pointer;
+}
+
+.dropdown-content{
+position:absolute;
+top:100%;
+left:0;
+background:#ffffff;
+min-width:200px;
+border-radius:8px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+padding:8px 0;
+opacity:0;
+visibility:hidden;
+transform:translateY(10px);
+transition:all 0.25s ease;
+z-index:999;
+}
+
+.dropdown-content a{
+display:block;
+padding:10px 18px;
+color:#111;
+font-size:14px;
+text-decoration:none;
+}
+
+.dropdown-content a:hover{
+background:#f3f4f6;
+}
+
+.dropdown:hover .dropdown-content{
+opacity:1;
+visibility:visible;
+transform:translateY(0);
+}
+
+/* ======================================
+   HERO SECTIONS
+====================================== */
+
+.hero,
+.page-hero{
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+padding:120px 20px;
+text-align:center;
+}
+
+.hero h1,
+.page-hero h1{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero p,
+.page-hero p{
+max-width:700px;
+margin:0 auto 20px auto;
+font-size:18px;
+opacity:0.9;
+}
+
+/* ======================================
+   BUTTONS
+====================================== */
+
+.primary-btn{
+background:#2563eb;
+color:#fff;
+padding:12px 26px;
+border-radius:6px;
+text-decoration:none;
+display:inline-block;
+margin:10px 5px;
+transition:0.3s ease;
+}
+
+.primary-btn:hover{
+background:#1d4ed8;
+}
+
+.secondary-btn{
+border:1px solid #2563eb;
+color:#2563eb;
+padding:12px 26px;
+border-radius:6px;
+text-decoration:none;
+display:inline-block;
+margin:10px 5px;
+transition:0.3s ease;
+}
+
+.secondary-btn:hover{
+background:#2563eb;
+color:white;
+}
+
+/* ======================================
+   GRID & CARDS
+====================================== */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:#ffffff;
+padding:30px;
+border-radius:10px;
+box-shadow:0 6px 20px rgba(0,0,0,0.05);
+transition:0.3s ease;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* ======================================
+   LISTS
+====================================== */
+
+ul{
+padding-left:20px;
+}
+
+.styled-list{
+list-style:none;
+padding:0;
+}
+
+.styled-list li{
+padding:12px 0;
+border-bottom:1px solid #e5e7eb;
+}
+
+/* ======================================
+   FAQ
+====================================== */
+
+.faq h3{
+margin-top:20px;
+font-size:18px;
+}
+
+.faq p{
+margin-bottom:15px;
+color:#444;
+}
+
+/* ======================================
+   PROFILE IMAGE
+====================================== */
+
+.profile-img{
+border-radius:50%;
+margin-bottom:20px;
+object-fit:cover;
+}
+
+/* ======================================
+   LINKS
+====================================== */
+
+.links{
+margin-top:20px;
+}
+
+.links a{
+text-decoration:none;
+color:#3b82f6;
+margin:0 10px;
+font-weight:500;
+}
+
+.links a:hover{
+text-decoration:underline;
+}
+
+/* ======================================
+   FOOTER (PROPER STICKY)
+====================================== */
+
+footer{
+text-align:center;
+padding:25px;
+background:#111827;
+color:white;
+margin-top:auto;
+}
+
+/* ======================================
+   RESPONSIVE
+====================================== */
+
+@media(max-width:768px){
+
+.hero h1,
+.page-hero h1{
+font-size:32px;
+}
+
+.nav-content{
+flex-direction:column;
+gap:15px;
+}
+
+.nav-content nav{
+flex-direction:column;
+gap:15px;
+}
+
+.dropdown-content{
+position:static;
+opacity:1;
+visibility:visible;
+transform:none;
+box-shadow:none;
+margin-top:10px;
+}
+
+}
