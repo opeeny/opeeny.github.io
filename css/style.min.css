@@ -319,3 +319,94 @@ margin-top:10px;
 }
 
 }
+/* ======================================
+   HIRE-ME PAGE SPECIFIC STYLES
+   Scoped to only .hire-page to avoid affecting other pages
+====================================== */
+
+.hire-page h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.hire-page p {
+  font-size: 18px;
+  color: #475569;
+  max-width: 700px;
+  margin-bottom: 25px;
+}
+
+.hire-page h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #1e293b;
+  border-left: 4px solid #2563eb;
+  padding-left: 10px;
+}
+
+.hire-page ul {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.04);
+  margin-top: 10px;
+}
+
+.hire-page .contact-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.hire-page .resource-box {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  transition: 0.3s ease;
+}
+
+.hire-page .resource-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.hire-page .cta-box {
+  margin-top: 40px;
+  padding: 30px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #fff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.hire-page .cta-box a {
+  background: #fff;
+  color: #1d4ed8;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.hire-page .cta-box a:hover {
+  background: #e2e8f0;
+  color: #1d4ed8;
+}
+
+/* Responsive tweaks for hire-me page */
+@media (max-width: 768px) {
+  .hire-page h1 {
+    font-size: 32px;
+  }
+
+  .hire-page h2 {
+    font-size: 20px;
+  }
+}
