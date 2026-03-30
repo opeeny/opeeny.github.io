@@ -1,0 +1,214 @@
+/* ======================================
+   RESET
+====================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ======================================
+   BASE
+====================================== */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+/* ======================================
+   NAVBAR
+====================================== */
+.navbar {
+  background: #0f172a;
+  padding: 18px 0;
+}
+
+.nav-content {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #3b82f6;
+}
+
+/* ======================================
+   MAIN LAYOUT
+====================================== */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+/* ======================================
+   HEADINGS
+====================================== */
+h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  border-left: 4px solid #2563eb;
+  padding-left: 10px;
+}
+
+/* ======================================
+   TEXT
+====================================== */
+p {
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+/* ======================================
+   LIST
+====================================== */
+ul {
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* ======================================
+   CONTACT BOX
+====================================== */
+.contact-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+/* ======================================
+   RESOURCE BOX (KEY SECTION)
+====================================== */
+.resource-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  transition: 0.3s ease;
+}
+
+.resource-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.resource-box a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.resource-box a:hover {
+  text-decoration: underline;
+}
+
+/* ======================================
+   CTA BOX
+====================================== */
+.cta-box {
+  margin-top: 50px;
+  padding: 30px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.cta-box h2 {
+  border: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.cta-box p {
+  color: #e2e8f0;
+}
+
+.cta-box a {
+  display: inline-block;
+  margin-top: 15px;
+  background: #ffffff;
+  color: #1d4ed8;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-box a:hover {
+  background: #e2e8f0;
+}
+
+/* ======================================
+   FOOTER
+====================================== */
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  text-align: center;
+  background: #0f172a;
+  color: #fff;
+}
+
+/* ======================================
+   RESPONSIVE
+====================================== */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .nav-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
