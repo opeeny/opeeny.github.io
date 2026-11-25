@@ -8,13 +8,9 @@
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://opeeny.github.io/images/opeeny-godfrey-software-engineer-kampala.jpg</image:loc>
-      <image:title>Opeeny Godfrey - Software Engineer in Kampala, Uganda</image:title>
-      <image:caption>Portrait of Opeeny Godfrey (Godfrey Opeeny), Full Stack Software Engineer in Kampala, Uganda</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://opeeny.github.io/images/smartfee.jpg</image:loc>
-      <image:title>SmartFee - School Fees Management System</image:title>
-      <image:caption>SmartFee web application built by Opeeny Godfrey</image:caption>
     </image:image>
   </url>
   <url>
