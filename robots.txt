@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://opeeny.github.io/sitemap.xml

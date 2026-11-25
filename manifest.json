@@ -1,0 +1,21 @@
+{
+  "name": "Godfrey Opeeny - Full Stack Software Engineer",
+  "short_name": "Godfrey Opeeny",
+  "description": "Portfolio and contact site for Godfrey Opeeny (Opeeny Godfrey), Full Stack Software Engineer specializing in React, Node.js, and scalable web architecture.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#111827",
+  "icons": [
+    {
+      "src": "/images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
