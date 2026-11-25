@@ -22,7 +22,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#111827">
+  <meta name="theme-color" content="#111113">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -32,7 +37,14 @@
 <header class="navbar">
   <div class="container nav-content">
     <a href="index.html" class="logo">Godfrey Opeeny</a>
-    <nav aria-label="Main navigation">
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <nav id="primary-nav" aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="certifications.html" aria-current="page">Certifications</a>
@@ -42,30 +54,50 @@
 </header>
 
 <main>
-  <section class="section">
-    <div class="container">
+  <section class="page-hero">
+    <div class="container center">
       <h1>Professional Certifications</h1>
       <p>
         Verified credentials demonstrating technical competence,
         continuous learning, and software engineering practice.
       </p>
+    </div>
+  </section>
 
+  <section class="section">
+    <div class="container">
       <div class="grid">
         <div class="card">
+          <div class="cert-meta">
+            <span class="cert-issuer">Udacity</span>
+            <span class="cert-year">2019</span>
+          </div>
           <h3>Programming for Data Science</h3>
-          <p>Udacity • 2019</p>
-          <a href="https://confirm.udacity.com/7EC7VUS6" target="_blank" rel="noopener noreferrer" class="secondary-btn">View Certificate</a>
+          <p>Foundations in Python, SQL, and version control for data-driven software systems.</p>
+          <div style="margin-top: 16px;">
+            <a href="https://confirm.udacity.com/7EC7VUS6" target="_blank" rel="noopener noreferrer" class="secondary-btn">Verify Certificate</a>
+          </div>
         </div>
 
         <div class="card">
+          <div class="cert-meta">
+            <span class="cert-issuer">Google – Pluralsight</span>
+            <span class="cert-year">2020</span>
+          </div>
           <h3>Mobile Web Development</h3>
-          <p>Google – Pluralsight • 2020</p>
+          <p>Responsive web architecture, progressive web app fundamentals, and mobile performance.</p>
         </div>
 
         <div class="card">
+          <div class="cert-meta">
+            <span class="cert-issuer">Kampabits</span>
+            <span class="cert-year">2021</span>
+          </div>
           <h3>Advanced Software Development Training</h3>
-          <p>Kampabits • 2021</p>
-          <a href="images/Designhub.pdf" target="_blank" rel="noopener noreferrer" class="secondary-btn">View Certificate</a>
+          <p>Full stack web application engineering, team collaboration, and production delivery.</p>
+          <div style="margin-top: 16px;">
+            <a href="images/Designhub.pdf" target="_blank" rel="noopener noreferrer" class="secondary-btn">View Certificate</a>
+          </div>
         </div>
       </div>
     </div>
@@ -76,5 +108,6 @@
   <p>© 2026 Godfrey Opeeny. All Rights Reserved.</p>
 </footer>
 
+<script src="js/nav.js" defer></script>
 </body>
 </html>

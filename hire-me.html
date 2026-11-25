@@ -29,7 +29,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#111827">
+  <meta name="theme-color" content="#111113">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.min.css">
 
@@ -63,7 +68,14 @@
 <header class="navbar">
   <div class="container nav-content">
     <a href="index.html" class="logo">Godfrey Opeeny</a>
-    <nav aria-label="Main navigation">
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <nav id="primary-nav" aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="certifications.html">Certifications</a>
@@ -122,6 +134,9 @@
           </div>
 
           <button type="submit" class="primary-btn form-submit">Send Inquiry</button>
+          <div id="form-status" class="form-status" role="status" aria-live="polite">
+            Drafting your message in your email client. You can also copy my email address on the right.
+          </div>
           <p class="form-note">Opens your email client pre-filled with your message, or copy my email on the right.</p>
         </form>
       </div>
@@ -140,7 +155,7 @@
           <div class="social-pills">
             <a href="https://github.com/opeeny" target="_blank" rel="noopener noreferrer" class="social-pill">GitHub</a>
             <a href="https://ug.linkedin.com/in/opeeny-godfrey-043848110" target="_blank" rel="noopener noreferrer" class="social-pill">LinkedIn</a>
-            <a href="https://drive.google.com/file/d/1Hyd_G15bG8nasiUUwPmsdDlrO6F8Y_o9/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="social-pill">Resume (PDF)</a>
+            <a href="index.html#projects" class="social-pill">Projects</a>
           </div>
         </div>
 
@@ -159,9 +174,14 @@
   </section>
 
   <!-- Publications -->
-  <section class="section">
+  <section class="section section-alt">
     <div class="container">
-      <h2>Published Books</h2>
+      <div class="section-header">
+        <span class="section-eyebrow">Publications</span>
+        <h2>Published Books</h2>
+        <p class="section-subtitle">Long-form writing and documented heritage alongside software engineering.</p>
+      </div>
+
       <div class="books-grid">
 
         <div class="book-card">
@@ -209,6 +229,7 @@
   <p>© 2026 Godfrey Opeeny. All Rights Reserved.</p>
 </footer>
 
+<script src="js/nav.js" defer></script>
 <script>
   (function () {
     var copyBtn = document.getElementById('copy-email-btn');
@@ -223,6 +244,7 @@
     }
 
     var form = document.getElementById('contact-form');
+    var status = document.getElementById('form-status');
     if (form) {
       form.addEventListener('submit', function (e) {
         e.preventDefault();
@@ -237,6 +259,9 @@
           'Engagement: ' + engagement + '\n\n' +
           message
         );
+        if (status) {
+          status.classList.add('is-visible');
+        }
         window.location.href = 'mailto:' + email + '?subject=' + subject + '&body=' + body;
       });
     }

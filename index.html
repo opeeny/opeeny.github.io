@@ -35,7 +35,12 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#2563eb">
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#111827">
+  <meta name="theme-color" content="#111113">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.min.css">
 
@@ -99,7 +104,14 @@
 <header class="navbar">
   <div class="container nav-content">
     <a href="index.html" class="logo">Godfrey Opeeny</a>
-    <nav aria-label="Main navigation">
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <nav id="primary-nav" aria-label="Main navigation">
       <a href="index.html" aria-current="page">Home</a>
       <a href="services.html">Services</a>
       <a href="certifications.html">Certifications</a>
@@ -111,72 +123,200 @@
 <main>
   <section class="hero">
     <div class="container">
-      <img src="img/pp.jpg" alt="Godfrey Opeeny - Full Stack Software Engineer" class="profile-img" width="180" height="180" fetchpriority="high">
+      <img src="img/pp.jpg" alt="Godfrey Opeeny - Full Stack Software Engineer" class="profile-img" width="160" height="160" fetchpriority="high">
 
-      <h1>Godfrey Opeeny — Full Stack Software Engineer</h1>
-      <h2>Building Scalable Web Applications with React &amp; Node.js</h2>
+      <h1>Godfrey Opeeny</h1>
+      <h2>Full Stack Software Engineer · React &amp; Node.js</h2>
 
       <p>
-        I design and develop secure, high-performance web applications for startups,
-        growing businesses, and enterprise teams worldwide.
-        Available for remote collaboration.
+        I design and build secure, high-performance web applications and scalable
+        backend systems for startups, growing businesses, and enterprise teams worldwide.
       </p>
 
       <div class="cta-buttons">
         <a href="hire-me.html" class="primary-btn">Hire Me</a>
-        <a href="services.html" class="secondary-btn">Explore Services</a>
-        <a href="certifications.html" class="primary-btn">Certifications</a>
-        <a href="https://drive.google.com/file/d/1Hyd_G15bG8nasiUUwPmsdDlrO6F8Y_o9/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="secondary-btn">Resume</a>
+        <a href="#projects" class="secondary-btn">View Projects</a>
       </div>
 
       <div class="links">
         <a href="https://github.com/opeeny" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://ug.linkedin.com/in/opeeny-godfrey-043848110" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="services.html">Services</a>
         <a href="mailto:godfreyopeeny@gmail.com">godfreyopeeny@gmail.com</a>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section id="projects" class="section">
     <div class="container">
-      <h2>Core Expertise</h2>
+      <div class="section-header">
+        <span class="section-eyebrow">Selected Work</span>
+        <h2>Featured Projects</h2>
+        <p class="section-subtitle">Production web systems and platforms designed, built, and maintained.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="images/smartfee.jpg" alt="SmartFee - Smart School Fees and Financial Management System login and feature overview" class="project-thumb" loading="lazy">
+          <div class="project-body">
+            <h3>SmartFee</h3>
+            <p>
+              Smart school fees and financial management system featuring instant fee collection,
+              cross-campus director analytics, automated SMS guardian alerts, QR-verified receipts,
+              and a dedicated parent/guardian portal.
+            </p>
+            <div class="pill-list">
+              <span class="tech-pill">FinTech / EdTech</span>
+              <span class="tech-pill">QR Receipts</span>
+              <span class="tech-pill">SMS Alerts</span>
+              <span class="tech-pill">Multi-Campus</span>
+            </div>
+            <a href="https://smartfeesmanager.com/" target="_blank" rel="noopener noreferrer" class="project-link">
+              Visit SmartFee &rarr;
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-banner">
+            <span class="project-banner-domain">begonatech.com</span>
+            <span class="project-banner-title">Begona Tech</span>
+          </div>
+          <div class="project-body">
+            <h3>Begona Tech</h3>
+            <p>
+              Technology solutions and digital platform presence engineered for modern business
+              operations, reliable web delivery, and scalable client services.
+            </p>
+            <div class="pill-list">
+              <span class="tech-pill">Web Platform</span>
+              <span class="tech-pill">Full Stack</span>
+              <span class="tech-pill">Scalable Architecture</span>
+            </div>
+            <a href="https://begonatech.com/" target="_blank" rel="noopener noreferrer" class="project-link">
+              Visit Begona Tech &rarr;
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Capabilities</span>
+        <h2>Core Engineering Expertise</h2>
+        <p class="section-subtitle">End-to-end ownership from product architecture to production deployment.</p>
+      </div>
 
       <div class="grid">
         <div class="card">
-          <h3>Frontend Development</h3>
-          <p>Modern React interfaces focused on usability, performance, and clean architecture.</p>
+          <h3>Frontend Architecture</h3>
+          <p>Accessible, responsive React interfaces engineered for fast load times, clean state management, and long-term maintainability.</p>
         </div>
 
         <div class="card">
-          <h3>Backend Development</h3>
-          <p>Secure Node.js APIs, authentication systems, and structured database design.</p>
+          <h3>Backend &amp; API Systems</h3>
+          <p>Secure Node.js REST APIs, role-based authentication, and structured relational or document database design.</p>
         </div>
 
         <div class="card">
-          <h3>System Architecture</h3>
-          <p>Scalable software design, workflow automation, and enterprise-level planning.</p>
+          <h3>System Design &amp; Scale</h3>
+          <p>Modular software architecture, workflow automation, and pragmatic technical planning for enterprise teams.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section highlight">
+  <section class="section">
     <div class="container">
-      <h2>Why Work With Me?</h2>
-      <ul>
-        <li>Professional communication &amp; documentation</li>
-        <li>Clean, maintainable code standards</li>
-        <li>Agile development approach</li>
-        <li>Long-term collaboration mindset</li>
-      </ul>
+      <div class="section-header">
+        <span class="section-eyebrow">Tech Stack</span>
+        <h2>Tools &amp; Technologies</h2>
+        <p class="section-subtitle">Production-tested technologies I use to ship reliable software.</p>
+      </div>
+
+      <div class="grid">
+        <div class="stack-group">
+          <h3>Frontend</h3>
+          <div class="pill-list">
+            <span class="tech-pill">React</span>
+            <span class="tech-pill">JavaScript (ES6+)</span>
+            <span class="tech-pill">HTML5</span>
+            <span class="tech-pill">CSS3</span>
+            <span class="tech-pill">Responsive UI</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <h3>Backend &amp; Data</h3>
+          <div class="pill-list">
+            <span class="tech-pill">Node.js</span>
+            <span class="tech-pill">REST APIs</span>
+            <span class="tech-pill">Authentication</span>
+            <span class="tech-pill">SQL / NoSQL</span>
+            <span class="tech-pill">Database Modeling</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <h3>Engineering Practices</h3>
+          <div class="pill-list">
+            <span class="tech-pill">System Architecture</span>
+            <span class="tech-pill">Git &amp; GitHub</span>
+            <span class="tech-pill">Agile Delivery</span>
+            <span class="tech-pill">Security-First</span>
+            <span class="tech-pill">Technical Docs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Working Style</span>
+        <h2>Why Teams Work With Me</h2>
+        <p class="section-subtitle">Reliable remote collaboration built on clear communication and clean code.</p>
+      </div>
+
+      <div class="values-grid">
+        <div class="value-card">
+          <h3>Clear Documentation</h3>
+          <p>Written architectural decisions, API contracts, and async updates that keep distributed teams aligned.</p>
+        </div>
+
+        <div class="value-card">
+          <h3>Maintainable Codebases</h3>
+          <p>Modular, readable code with consistent conventions so your team can onboard and iterate quickly.</p>
+        </div>
+
+        <div class="value-card">
+          <h3>Agile &amp; Pragmatic</h3>
+          <p>Iterative delivery focused on shipping real user value without over-engineering.</p>
+        </div>
+
+        <div class="value-card">
+          <h3>Long-Term Ownership</h3>
+          <p>Committed to reliability, security, and supporting systems well beyond initial launch.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container center">
+      <span class="section-eyebrow">Get In Touch</span>
       <h2>Ready to Build Something Scalable?</h2>
-      <p>Let’s discuss your project and turn your ideas into a production-ready solution.</p>
-      <a href="hire-me.html" class="primary-btn">Start a Conversation</a>
+      <p class="section-subtitle" style="max-width: 600px; margin: 10px auto 24px auto;">
+        Let’s discuss your engineering needs, role, or project timeline.
+      </p>
+      <div class="cta-buttons">
+        <a href="hire-me.html" class="primary-btn">Start a Conversation</a>
+        <a href="https://github.com/opeeny" target="_blank" rel="noopener noreferrer" class="secondary-btn">Explore GitHub</a>
+      </div>
     </div>
   </section>
 </main>
@@ -185,5 +325,6 @@
   <p>© 2026 Godfrey Opeeny. All Rights Reserved.</p>
 </footer>
 
+<script src="js/nav.js" defer></script>
 </body>
 </html>
